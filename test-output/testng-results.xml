@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="6" failed="0" total="6" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="222" started-at="2016-02-06T13:19:45Z" finished-at="2016-02-06T13:19:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="222" started-at="2016-02-06T13:19:45Z" finished-at="2016-02-06T13:19:45Z">
+      <class name="tests.application.Tests_booking">
+        <test-method status="FAIL" signature="login()[pri:0, instance:tests.application.Tests_booking@9f624a]" name="login" is-config="true" duration-ms="0" started-at="2016-02-06T18:49:45Z" finished-at="2016-02-06T18:49:45Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: C:\Users\HOME\workspace\SElenium_automation\IE_FILE_PATH]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\HOME\workspace\SElenium_automation\IE_FILE_PATH
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:177)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:117)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:112)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:117)
+	at utils.application.TestBaseClass.setup(TestBaseClass.java:69)
+	at tests.application.Tests_booking.login(Tests_booking.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="validate_url_TC001()[pri:0, instance:tests.application.Tests_booking@9f624a]" name="validate_url_TC001" duration-ms="1" started-at="2016-02-06T18:49:45Z" finished-at="2016-02-06T18:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_url_TC001 -->
+        <test-method status="SKIP" signature="select_details_TC002()[pri:0, instance:tests.application.Tests_booking@9f624a]" name="select_details_TC002" duration-ms="1" started-at="2016-02-06T18:49:45Z" finished-at="2016-02-06T18:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_details_TC002 -->
+        <test-method status="SKIP" signature="dates_TC003()[pri:0, instance:tests.application.Tests_booking@9f624a]" name="dates_TC003" duration-ms="1" started-at="2016-02-06T18:49:45Z" finished-at="2016-02-06T18:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dates_TC003 -->
+        <test-method status="SKIP" signature="promotions_TC004()[pri:0, instance:tests.application.Tests_booking@9f624a]" name="promotions_TC004" duration-ms="1" started-at="2016-02-06T18:49:45Z" finished-at="2016-02-06T18:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- promotions_TC004 -->
+        <test-method status="SKIP" signature="checkforchildren_TC005()[pri:0, instance:tests.application.Tests_booking@9f624a]" name="checkforchildren_TC005" duration-ms="0" started-at="2016-02-06T18:49:45Z" finished-at="2016-02-06T18:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkforchildren_TC005 -->
+        <test-method status="SKIP" signature="Search_TC006()[pri:0, instance:tests.application.Tests_booking@9f624a]" name="Search_TC006" duration-ms="0" started-at="2016-02-06T18:49:45Z" finished-at="2016-02-06T18:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_TC006 -->
+        <test-method status="SKIP" signature="quit()[pri:0, instance:tests.application.Tests_booking@9f624a]" name="quit" is-config="true" duration-ms="0" started-at="2016-02-06T18:49:45Z" finished-at="2016-02-06T18:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.application.Tests_booking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
